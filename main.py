@@ -3,9 +3,9 @@ from math_function import *
 
 def main():
 
-    data_1 = int(input("masukkan input 1 : "))
-    data_2 = int(input("masukkan input 2 : "))
-    operator = input("masukkan operator (yang bisa cuma: + , * , /) : ")
+    data_1 = int(input("Masukkan Input 1 : "))
+    data_2 = int(input("Masukkan Input 2 : "))
+    operator = input("Masukkan Operator (+ , * , /) : ")
 
     if operator == "+":
         result = add(data_1, data_2)
@@ -20,7 +20,7 @@ def main():
         print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
     else:
-        print("Lo goblog apa gimana?")
+        print("Maaf ya, operator belum terdaftar")
 
 
 if __name__ == "__main__":
